@@ -32,7 +32,7 @@ module.exports = function createLogInterface(servicePath, cb) {
 
     nodeCleanup(function shutdown(code, signal) {
         server.close(() => {
-            process.kill(process.pid, signal)
+            // process.kill(process.pid, signal)
         })
 
         Object
