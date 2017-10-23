@@ -1,0 +1,2 @@
+# firestarter
+Microservice application starter
