@@ -2,6 +2,9 @@
   "name": "firestarter",
   "version": "0.1.0",
   "description": "",
+  "bin": {
+    "fire": "./cli.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "commander": "^2.11.0",
     "fastify": "^0.30.2",
     "node-cleanup": "^2.1.2",

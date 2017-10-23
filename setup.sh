@@ -1,4 +1,3 @@
 #!/bin/bash
 
-ln -s $(pwd)/firestarter.js ~/bin/fire
-ln -s $(pwd)/firestarter.js ~/bin/drakarys
+ln -s $(pwd)/cli.js ~/bin/fire
