@@ -15,7 +15,7 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "commander": "^2.11.0",
-    "fastify": "^0.30.2",
+    "fastify": "^0.37.0",
     "node-cleanup": "^2.1.2",
     "shortid": "^2.2.8"
   }
